@@ -28,5 +28,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build --pull -t ${{ env.REGISTRY }}/vatger-nav/iassure-wx:latest .
-          docker push ${{ env.REGISTRY }}/vatger-nav/iassure-wx:latest
+          docker build --pull -t ${{ env.REGISTRY }}/VATSIM-SSA/ssa-iassure-wx:latest .
+          docker push ${{ env.REGISTRY }}/VATSIM-SSA/ssa-iassure-wx:latest
